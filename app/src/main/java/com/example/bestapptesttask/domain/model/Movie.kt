@@ -1,8 +1,5 @@
 package com.example.bestapptesttask.domain.model
 
-import com.example.bestapptesttask.data.network.dto.PersonDTO
-
-
 data class Movie(
     val id: Int,
     val image: String,
