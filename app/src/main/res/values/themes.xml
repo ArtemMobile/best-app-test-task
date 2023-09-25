@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BestAppTestTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/orange</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Theme.BestAppTestTask" parent="Base.Theme.BestAppTestTask" />
+
+
+    <style name="DefaultChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/chip_text_color_state</item>
+        <item name="chipBackgroundColor">@color/chip_background_state</item>
+        <item name="chipCornerRadius">10dp</item>
+        <item name="rippleColor">@null</item>
+        <item name="android:paddingVertical">14dp</item>
+        <item name="chipMinTouchTargetSize">0dp</item>
+        <item name="textStartPadding">15dp</item>
+        <item name="textEndPadding">15dp</item>
+    </style>
+
+    <style name="chipText" parent="TextAppearance.MaterialComponents.Chip">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/sf_pro_med</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
