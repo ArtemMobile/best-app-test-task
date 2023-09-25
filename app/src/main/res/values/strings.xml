@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BestAppTestTask</string>
+    <string name="app_name">Фильмы</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="film_added_to_bookmarks">Фильм добавлен в закладки</string>
